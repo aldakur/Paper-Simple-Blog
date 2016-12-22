@@ -179,6 +179,14 @@ hr {
 	border-radius: 0;
 }
 
+.btn-more-info:hover{
+	margin-top: 10px;
+	color: #333;
+	background: #F5F5F5;
+	border:none;
+	border-radius: 0;
+}
+
 /* -- COMMENTS -- */
 
 .comment-body {
