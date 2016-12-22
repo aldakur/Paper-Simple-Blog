@@ -1,0 +1,282 @@
+/*
+Theme Name: Paper Simple Blog
+Theme URI: www.egoitzgonzalez.com
+Description: Simple and minimalist blog theme
+Version: 1
+Author: Egoitz Gonzalez @aldakur
+Author URL: http://www.egoitzgonzalez.com;
+*/
+
+
+/* -- HEADER -- */
+
+/* 
+This is other option. But do it in header is better
+@import url('css/bootstrap.min.css'); */
+/* @import url('css/responsive.css'); */
+
+.menu{
+	margin-top: 5%;
+	padding-bottom: 10px;
+	background: #fff;
+	border:none;
+	border-radius: 0;
+	border-bottom: 1px solid  #999;
+
+}
+
+.menu .menu-items .dropdown-menu{ /* Menu items first level */
+	padding: 0px;
+}
+
+.menu .menu-items li > a:hover{ /* Menu items first level */
+	background: #F5004D;
+	border: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+}
+
+.menu .menu-items .dropdown-menu > li > a{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.menu .menu-items .dropdown-menu > li > a:hover{
+	/*background-color: #F5004D;*/
+	/*padding: 3px 20px;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+}
+
+.menu .menu-items .dropdown-menu > li:hover{
+	background-color: #F5004D;
+}
+
+
+.navbar .nav .active a{
+	background: #F5004D;
+	border: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color:#fff;
+}
+
+
+.form-control:focus {
+  border-color: #F5004D;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 3px rgba(255, 0, 0, 0.6);
+}
+
+/*
+.navbar-form-mysearch {
+	padding: 10px 1px;
+	padding-bottom: 0px;
+}*/
+
+/* OPTIONAL
+hr {
+	margin-top: 1px;
+	margin-bottom: 10px;
+	background: #fff;
+	border:none;
+	border-radius: 0;
+	border-bottom: 1px solid  #999;
+}
+*/
+
+/* -- POST -- */
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+
+.post .post-title a{
+	color: #333;
+}
+
+.post .post-title a:hover{
+	color: #F5004D;
+	text-decoration: none;
+
+}
+
+.post .thumb{ /* Optional */
+	margin-right: 10px;
+	width: 40%;
+}
+
+.post .thumb img {
+	width:100%;
+	height: 100%;
+
+}
+
+
+.main .row .posts .post ul { /* Category near the date */
+	list-style: none;
+	display: inline-block;
+	/*padding: 2px;*/
+	border:none;
+	border-radius: 0;
+}
+
+.main .row .posts .post ul a {
+	color:#fff;
+	background: #F5004D;
+	margin-left: 1px;
+	text-decoration: none;
+	margin-top: 0px;
+	padding: 5px;
+}
+
+.main .row .posts .post ul a:hover {
+	color: #fff;
+	background-color: #286090;
+	border-color: #122b40;
+}
+
+.post-categories {
+	margin: 0px;
+	padding: 0px;
+}
+
+.post .container-buttons {
+	width: 100%;
+}
+
+.btn-more-info {
+	margin-top: 10px;
+	background: #F5004D;
+	border:none;
+	border-radius: 0;
+}
+
+/* -- COMMENTS -- */
+
+.comment-body {
+	background-color: #F0F0F0;
+	margin-bottom: 10px;
+}
+
+.commentlist {
+	list-style: none;
+}
+
+.comment-body {
+	padding: 10px;
+}
+
+.children {
+	list-style: none;
+}
+
+.avatar {
+	background-color: transparent;
+	border: solid 1px #999;
+	width: 52px;
+	height: 52px;
+}
+
+.comment-form-comment {
+	
+}
+
+textarea {
+	border: 1px solid #ccc;
+}
+
+textarea:focus{
+  border-color: #F5004D;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 3px rgba(255, 0, 0, 0.6);
+}
+
+
+#comment {
+	width: 100%;
+}
+
+#submit {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+#submit:hover {
+  background-color: #F5F5F5;
+}
+
+/* -- WIDGETS -- */
+
+.mywidget {
+	margin-bottom: 50px;
+}
+
+.list-group-item a {
+	text-decoration: none;
+	color: #333;
+	font-size: 12px;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+.list-group-item:hover {
+	background-color: #F5F5F5;
+	cursor:pointer;
+}
+
+/* -- FOOTER -- */
+.my-footer-text{
+	margin-bottom: 5px;
+}
+
+.img-creativecommons {
+	width: 15px;
+	height: 15px;
+}
+
+.my-pagination {
+	margin: 20px;
+}
+
+.my-pagination a {
+	background: #F5004D;
+	padding: 15px;
+	color:#fff;
+	/* border: 20px; */
+	}
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+/* -- MEDIA QUERY -- */
+
+/* http://getbootstrap.com/css/ */
+@media screen and (max-width: 992px) {
+
+	.mycontact {
+		text-align: right;
+	}
+}
+
+/* -- MEDIA QUERY -- */
+@media screen and (max-width: 768px) {
+
+	/* -- HEADER -- */
+	/*
+	.navbar-form-mysearch {
+		background: black;
+		clear: both;
+		display: block;
+		float: left;
+	}*/
+
+	/* -- POST -- */
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+
+	.mycontact {
+		text-align: right;
+	}
+/*
+	.pagination{
+		background: #F5004D;
+		border: 20px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		color:#fff;
+	}
+
+	.pagination a {
+		padding: 10px;
+		color:#fff;
+		text: none;
+	}
+	*/
+
+	/*
+	#pagination-response a {
+		background: #F5004D;
+		padding: 15px;
+		color:#fff;
+		/* border: 20px; 
+	}
+
+	#pagination-response {
+		display: unset; /* Lo contrarioa a none. Mostrará la clase
+	}
+
+	#normal-pagination {
+		display: none;
+	}
+	*/
+}
