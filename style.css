@@ -21,6 +21,14 @@ Gray color: #F5F5F5;
 Blue: #286090;
 */
 
+body a{
+	color: #F5004D;
+}
+
+body a:hover{
+	color: #F5004D;
+}
+
 .menu{
 	margin-top: 5%;
 	padding-bottom: 10px;
