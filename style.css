@@ -15,6 +15,12 @@ This is other option. But do it in header is better
 @import url('css/bootstrap.min.css'); */
 /* @import url('css/responsive.css'); */
 
+/* MAIN VALUES 
+Red color: #F5004D;
+Gray color: #F5F5F5;
+Blue: #286090;
+*/
+
 .menu{
 	margin-top: 5%;
 	padding-bottom: 10px;
@@ -138,14 +144,28 @@ hr {
 }
 
 .main .row .posts .post ul a:hover {
-	color: #fff;
-	background-color: #286090;
+	color: #333;
+	background-color: #F5F5F5;
 	border-color: #122b40;
+}
+
+.post-date {
+	color: #333;
+	background: #F5F5F5;
+	margin-left: 1px;
+	text-decoration: none;
+	margin-top: 0px;
+	padding: 5px;
 }
 
 .post-categories {
 	margin: 0px;
 	padding: 0px;
+}
+
+.post-categories li { /* The categories together */
+	display: inline;
+
 }
 
 .post .container-buttons {
@@ -249,7 +269,30 @@ textarea:focus{
 
 .list-group-item:hover {
 	background-color: #F5F5F5;
-	cursor:pointer;
+	/*cursor:pointer;*/
+}
+
+/* Tag cloud */
+	
+.mywidget .tagcloud a{
+	margin: 15px 3px;
+}
+
+.mywidget .tagcloud a:hover{
+	text-decoration: none;
+}
+
+.mywidget .tagcloud a > span{
+	color: #fff;
+	background: #F5004D;
+	text-decoration: none;
+
+}
+
+.mywidget .tagcloud a > span:hover{
+	text-decoration: none;
+	color: black;
+	background: #F5F5F5;
 }
 
 /* -- FOOTER -- */
