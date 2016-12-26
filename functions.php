@@ -43,7 +43,7 @@ require_once('plugins/bootstrap-widgets.php');
 /* MY WIDGETS */
 
 // Register my plugins for archive widget
-require_once('plugins/paper-simple-blog-archive-widget.php');
+require_once('widgets/paper-simple-blog-archive-widget.php');
 
 
 ?>
