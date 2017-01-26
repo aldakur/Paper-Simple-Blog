@@ -329,6 +329,7 @@ textarea:focus{
 	background: #F5004D;
 	padding: 15px;
 	color:#fff;
+	display: inline-block;
 	/* border: 20px; */
 	}
 

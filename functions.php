@@ -15,7 +15,7 @@ add_action( 'after_setup_theme', 'wpt_setup' );
 // Para agregar nuestros Thumbails
 add_theme_support( 'post-thumbnails' );
 //add_image_size( 'list_articles_thumbs',329, 164.5, true );
-
+//add_image_size( 'list_articles_thumbs',150, 150, true );
 /* to remove wp-post-image class
 remove_action( 'begin_fetch_post_thumbnail_html', '_wp_post_thumbnail_class_filter_add' );*/
 
