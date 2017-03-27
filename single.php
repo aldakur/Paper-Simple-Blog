@@ -19,11 +19,11 @@
 						<span class="category"><?php
 						// the_category();
 						$categories = get_the_category();
-						//$separator = ', ';
+						$separator = ' ';
 						$output = '';
 						if($categories){
 								foreach($categories as $category) {
-										$output .= '<a class="myCategory" href="'.get_category_link( $category->term_id ).'" title="'.esc_attr( sprintf( __( "%s" ), $category->name ) ).'" rel="category tag" >'.$category->cat_name.'</a>';
+									$output .= '<a class="myCategory" href="'.get_category_link( $category->term_id ).'"title="'.esc_attr( sprintf( __( "%s" ), $category->name ) ).'" rel="category tag" >'.$category->cat_name.'</a>'.$separator;
 								}
 						echo trim($output);
 						}
