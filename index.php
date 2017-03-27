@@ -16,10 +16,21 @@
 							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 						</h2>
 						<span class="post-date"><?php the_date(); ?></span>
-						<span class="category"><?php the_category(); ?></span>
+						<span class="category"><?php
+						// the_category();
+						$categories = get_the_category();
+						$separator = ' ';
+						$output = '';
+						if($categories){
+								foreach($categories as $category) {
+										$output .= '<a class="myCategory" href="'.get_category_link( $category->term_id ).'"title="'.esc_attr( sprintf( __( "%s" ), $category->name ) ).'" rel="category tag" >'.$category->cat_name.'</a>'.$separator;
+								}
+						echo trim($output, $separator);
+						}
+						?></span>
 
 						<p class="extract post-content text-justify">
-							<?php the_excerpt();?> 
+							<?php the_excerpt();?>
 						</p>
 						<div class="container-buttons pull-left">
 							<a href="<?php the_permalink(); ?>" class="btn btn-primary btn-more-info">Irakurri</a>
@@ -30,16 +41,16 @@
 				<?php endwhile; else: ?>
 					<h2>Ez dira Postak aurkitu</h2>
 				<?php endif; ?>
-				
+
 				<nav>
-				
+
 					<div class="center-block">
 					<div class="navigation">
 						<div class="my-pagination"> <!-- Show in extra small screens -->
 							<div class="pull-left">
   								<?php previous_posts_link('<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>'); ?>
 							</div>
-							<div class="pull-right">						
+							<div class="pull-right">
 								<?php next_posts_link('<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>'); ?>
 							</div>
 						</div> <!-- end pagination -->

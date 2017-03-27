@@ -10,12 +10,12 @@ Author URL: http://www.egoitzgonzalez.com;
 
 /* -- HEADER -- */
 
-/* 
+/*
 This is other option. But do it in header is better
 @import url('css/bootstrap.min.css'); */
 /* @import url('css/responsive.css'); */
 
-/* MAIN VALUES 
+/* MAIN VALUES
 Red color: #F5004D;
 Gray color: #F5F5F5;
 Blue: #286090;
@@ -23,6 +23,9 @@ Blue: #286090;
 
 body a{
 	color: #F5004D;
+	font-family: Arial, Verdana, "Times New Roman", Georgia, Serif;
+	padding: 0px;
+
 }
 
 body a:hover{
@@ -106,6 +109,11 @@ hr {
 	margin-bottom: 20px;
 }
 
+p {
+	font-size: 16px;
+
+}
+
 .post {
 	padding-bottom: 20px;
 	margin-bottom: 20px;
@@ -132,16 +140,39 @@ hr {
 	height: 100%;
 
 }
-
+/* KENDUUU
+.main .row .posts .post ul li a {
+	color: black;
+}
+*/
 
 .main .row .posts .post ul { /* Category near the date */
-	list-style: none;
+	/*list-style: none; This line hide lit's dots or numbers*/
 	display: inline-block;
 	/*padding: 2px;*/
 	border:none;
 	border-radius: 0;
+
 }
 
+/* This class use in single.php */
+.myCategory {
+	color:#fff;
+	background: #F5004D;
+	margin-left: 1px;
+	text-decoration: none;
+	margin-top: 0px;
+	padding: 5px;
+}
+
+.myCategory:hover {
+	color: #333;
+	background-color: #F5F5F5;
+	border-color: #122b40;
+	text-decoration: none;
+}
+
+/* This not necesarry because now I use myCategory class.
 .main .row .posts .post ul a {
 	color:#fff;
 	background: #F5004D;
@@ -155,7 +186,7 @@ hr {
 	color: #333;
 	background-color: #F5F5F5;
 	border-color: #122b40;
-}
+}*/
 
 .post-date {
 	color: #333;
@@ -168,12 +199,12 @@ hr {
 
 .post-categories {
 	margin: 0px;
+	margin-top: 22px;
 	padding: 0px;
 }
 
 .post-categories li { /* The categories together */
 	display: inline;
-
 }
 
 .post .container-buttons {
@@ -193,6 +224,15 @@ hr {
 	background: #F5F5F5;
 	border:none;
 	border-radius: 0;
+}
+
+.myLink {
+	color: #F5004d !important;
+	background: #fff !important;
+}
+
+.myLink:hover{
+	text-decoration: underline !important;
 }
 
 /* -- COMMENTS -- */
@@ -222,7 +262,7 @@ hr {
 }
 
 .comment-form-comment {
-	
+
 }
 
 textarea {
@@ -289,7 +329,7 @@ textarea:focus{
 }
 
 /* Tag cloud */
-	
+
 .mywidget .tagcloud a{
 	margin: 15px 3px;
 }
@@ -332,11 +372,3 @@ textarea:focus{
 	display: inline-block;
 	/* border: 20px; */
 	}
-
-
-
-
-
-
-
-
