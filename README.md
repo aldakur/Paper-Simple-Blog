@@ -23,7 +23,7 @@ Blog style:
 Post style:
 ![Alt text](./screenshot-post.png?raw=true "Optional Title")
 
-##Demo
+## Demo
 This theme is installed in my personl blog.
 
 * English version: [http://www.aldakur.net/en](http://www.aldakur.net/)
