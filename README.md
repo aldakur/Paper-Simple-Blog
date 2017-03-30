@@ -17,7 +17,7 @@ The theme has installed 3 necessaries plugins to work correctly
 [https://codex.wordpress.org/Links_Manager](https://codex.wordpress.org/Links_Manager)
 
 
-##Screanshots
+## Screanshots
 Blog style:
 ![Alt text](./screenshot.png?raw=true "Optional Title")
 Post style:
