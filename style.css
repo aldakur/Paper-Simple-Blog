@@ -176,6 +176,13 @@ p {
 	text-decoration: none;
 }
 
+.myCategory:focus {
+	color: #333;
+	background-color: #F5F5F5;
+	text-decoration: none;
+}
+
+
 /* This not necesarry because now I use myCategory class.
 .main .row .posts .post ul a {
 	color:#fff;

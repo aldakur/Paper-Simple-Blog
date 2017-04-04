@@ -2,10 +2,10 @@
 		<div class="container">
 			<div class="row my-footer-text">
 				<div class="col-xs-6 col-md-9">
-					<img class="img-creativecommons" src="img/CcLogoCircle.png" alt="Logo Creative Commons">
+					<img src="/img/CcLogoCircle.png" alt="Logo Creative Commons"/>
 					<a href="https://creativecommons.org/licenses/by-sa/3.0/es/legalcode.eu" target="_blank">Creative Commons. Aitortu-PartekatuBerdin 3.0</a>
 				</div>
-					<div class="col-xs-6 col-md-3 text-center mycontact">			
+					<div class="col-xs-6 col-md-3 text-center mycontact">
 						<a href="#" >Kontaktua</a>
 					</div>
 			</div>
