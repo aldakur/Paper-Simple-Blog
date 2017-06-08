@@ -26,6 +26,10 @@ Gray color: #F5F5F5;
 Blue: #286090;
 */
 
+body {
+		font-size: 16px;
+}
+
 body a{
 	color: #F5004D;
 	font-family: Arial, Verdana, "Times New Roman", Georgia, Serif;
